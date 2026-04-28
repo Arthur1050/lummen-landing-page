@@ -301,14 +301,6 @@ function Hero() {
           </div>
         </div>
       </div>
-
-      <a
-        href="#busca"
-        className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 items-center gap-2 rounded-[8px] border border-white/18 bg-white/10 px-3 py-2 text-xs font-bold uppercase tracking-[0.24em] text-white backdrop-blur md:flex"
-      >
-        Buscar
-        <ChevronRight className="size-4 rotate-90" />
-      </a>
     </section>
   )
 }
