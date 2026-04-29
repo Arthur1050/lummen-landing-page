@@ -10,7 +10,6 @@ import {
   Camera,
   Car,
   CheckCircle2,
-  ChevronRight,
   ClipboardCheck,
   ExternalLink,
   Gem,
@@ -459,7 +458,7 @@ function PropertyCard({
             <Badge className="bg-accent text-[#1a1d20]">{property.price}</Badge>
           </div>
         </div>
-        <CardHeader>
+        <CardHeader className="my-3">
           <CardTitle className="font-heading text-xl font-black text-foreground">
             {property.title}
           </CardTitle>
@@ -502,7 +501,7 @@ function Services() {
             return (
               <Card
                 key={service.title}
-                className="service-card rounded-[8px] border-0 bg-white p-0 shadow-sm ring-1 ring-[#2b3036]/10"
+                className="service-card rounded-[8px] border-0 bg-white shadow-sm ring-1 ring-[#2b3036]/10"
                 data-reveal
                 style={{ transitionDelay: `${index * 70}ms` }}
               >
